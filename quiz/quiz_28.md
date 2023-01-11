@@ -10,4 +10,4 @@
     plt.plot(data["x"],data["y"])
     plt.title(data["title"])
     plt.show()
-    
+   ![](https://github.com/24536urdj/Unit_3/blob/main/quiz/Screen%20Shot%202023-01-11%20at%2022.35.45.png)
