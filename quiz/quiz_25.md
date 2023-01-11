@@ -26,4 +26,6 @@
     plt.ylabel("$y=2*(x+5)**2}$")
     plt.show()
     
+   ![](https://github.com/24536urdj/Unit_3/blob/main/quiz/Screen%20Shot%202023-01-11%20at%2020.56.20.png)
+    
     
