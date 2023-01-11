@@ -26,3 +26,4 @@
     plt.ylabel("$y=2*(x+5)**2}$")
     plt.show()
     
+    
