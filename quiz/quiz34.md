@@ -1,5 +1,5 @@
 ###
-        def printRoman(number):
+        def to_roman(number):
         if number > 100 :
             print(ValueError)
         else :
@@ -20,7 +20,7 @@
 
 
 
-    if __name__ == "__main__":
-        number = 3
-        print("Roman value is:", end=" ")
-        printRoman(number)
+    
+        number = 101
+      
+        to_roman(number)
