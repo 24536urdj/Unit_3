@@ -37,6 +37,19 @@
                         color:"ffff0"
                         font_size:"60"
                         halign:"center"
+### 
+            from kivymd.app import MDApp
+            from kivymd.uix.screen import MDScreen
+            class IntroScreen(MDScreen):
+                pass
+
+            class DarkMood(MDScreen):
+               pass
+            class name(MDApp):
+                def build(self):
+                    return
+            test = name()
+            test.run()
 
 
 
