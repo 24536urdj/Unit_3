@@ -35,24 +35,24 @@
                 app.add()
 ###    
         from kivymd.app import MDApp
-from kivymd.uix.screen import MDScreen
+        from kivymd.uix.screen import MDScreen
 
 
-class box(MDApp):
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        self.count = 0
+        class box(MDApp):
+            def __init__(self, **kwargs):
+                super().__init__(**kwargs)
+                self.count = 0
 
 
 
-    def add(self):
-        self.count += 1
-        self.root.ids.counter_label.text = f"Count is {self.count}"
+            def add(self):
+                self.count += 1
+                self.root.ids.counter_label.text = f"Count is {self.count}"
 
-    def build(self):
-        return
+            def build(self):
+                return
 
 
-test = box()
-test.run()
+        test = box()
+        test.run()
 
