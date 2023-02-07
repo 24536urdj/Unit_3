@@ -85,3 +85,6 @@ text.run()
                 halign:"right"
                 on_press:root.parent.current ="MysteryPageA"
 '''
+
+
+
