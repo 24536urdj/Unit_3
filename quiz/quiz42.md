@@ -87,4 +87,7 @@
                     on_press:root.parent.current ="MysteryPageA"
     '''
 
-https://github.com/24536urdj/Unit_3/blob/main/quiz/Screen%20Recording%202023-02-07%20at%2021.42.04.mov
+
+https://user-images.githubusercontent.com/112072887/217249420-bbb237ec-81a4-4765-90a7-208f3d49dc0d.mov
+
+
