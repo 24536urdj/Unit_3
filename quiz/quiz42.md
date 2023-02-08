@@ -1,4 +1,8 @@
-###
+
+# Quiz 42
+
+## Code
+```.py ###
 
     from kivymd.app import MDApp
     from kivymd.uix.screen import MDScreen
@@ -14,6 +18,9 @@
             return
     text = mystery()
     text.run()
+    
+```
+```.kv
     '''
       ScreenManager:
         IntroScreen:
@@ -87,7 +94,7 @@
                     halign:"right"
                     on_press:root.parent.current ="MysteryPageA"
     '''
-
+```
 
 https://user-images.githubusercontent.com/112072887/217249420-bbb237ec-81a4-4765-90a7-208f3d49dc0d.mov
 
