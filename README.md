@@ -11,7 +11,7 @@ For a low-cost notebook , an adequate alternative is a digital blog which is wil
 
 ### Success Criteria 
 1. The solution needs to have a login and a registration system
-2. The solution needs to have an option of resetting the password but only for my client which will be referred to as owner in the application
+2. The solution needs to have an option of resetting the password but only for my client that will be referred to as owner in the application
 3. The solution needs to have an option screen with two buttons one for the owner and one for the viewers, and then depends on the button clicked a certain type of files will be shown.
 5. The solution needs to be able to keep  the information about items organized and easily to follow
 6. The solution needs to enable the client to add new information.
