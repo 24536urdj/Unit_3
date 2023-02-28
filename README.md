@@ -6,12 +6,12 @@ My client is mayte Flores (who is currently an IB student ) has expressed  her w
 
 ### Proposed solution
 Considering the client's requirements, an adequate solution includes a low-cost alternative for a notebook  , a more  organized  version of a blog that suits my clients tolerance toward privacy policies ,and an application that allows her to share her work.
-For a low-cost notebook , an adequate alternative is a digital blog which is will be created using Python because it is first an easy language and also a free one since it does not require a license. For the blog creation , I will use the KivyMD library to make it , and in order to keep it organized and fulfill the success criteria , I will use sql to associate a database to my app so that my client will be able to add, withdraw and edit her topics.Finally in order for my client to be able to share her ideas , the blog will have two types of access , one for the owner , and one for the viewer.so that others can observe the topics she wants to publish and also keep those that she  does not want to publish for herself .
+For a low-cost notebook , an adequate alternative is a digital blog which is will be created using Python because it is first an easy language and also a free one since it does not require a license. For the blog creation , I will use the KivyMD library to make it since Kivy is perhaps the only framework which is primarily written in pure Python[^2].  , and in order to keep it organized and fulfill the success criteria , I will use sql to associate a database to my app because it's portability makes it a convenient option for users, as they can transfer it from one device to another with no issues. It processes queries quickly. No matter how large data might be, SQL can retrieve it quickly and efficiently.[^3] so that my client will be able to add, withdraw and edit her topics.Finally in order for my client to be able to share her ideas , the blog will have two types of access , one for the owner , and one for the viewer.so that others can observe the topics she wants to publish and also keep those that she  does not want to publish for herself .
 
 ### Desing statement
 
 I will design and program a low-cost blog application which will alow the owner to add,withdraw and edit her historical topics in an organized way. This application will also have the ability to share its topics through viewing option. This project is for our client who  needs a low cost blog application that will help her keep her pursue her passion about history easly and effectively . The blog will be created using the software PyCharm and oop programing paradigm that includes the use of python language, taking three weeks to make. All of the findings will be displayed on a 4 min informational video which will also include a discussion of how the code is well organized so that future developers can extend it
-if found[^2]. The proposed solution will be evaluated according to criteria A and B.
+if found[^1]. The proposed solution will be evaluated according to criteria A and B.
 
 
 
@@ -20,14 +20,17 @@ if found[^2]. The proposed solution will be evaluated according to criteria A an
 1. The solution needs to have a login and a registration system
 2. The solution needs to have an option of resetting the password but only for my client that will be referred to as owner in the application
 3. The solution needs to have an option screen with two buttons one for the owner and one for the viewers, and then depends on the button clicked a certain type of files will be shown.
-5. The solution needs to be able to keep  the information about items organized and easily to follow
-6. The solution needs to enable the client to add new information.
-7. The solution needs to enable the client to withdraw unwanted files and data.
+5. The solution needs to be able to keep  the information about items organized and easily to follow by providing a searching button
+6. The solution needs to enable the client to add new historical topic's notes 
+7. The solution needs to enable the client to delete unwanted files.
 
 
 
 
 
 ### Works Cited
-[^2]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
+[^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
+[^2]:https://www.pythonguis.com/faq/which-python-gui-library/#:~:text=While%20most%20other%20GUI%20frameworks,is%20the%20way%20to%20go.
+[^3]:https://www.businessnewsdaily.com/5804-what-is-sql.html#:~:text=Its%20portability%20makes%20it%20a,retrieve%20it%20quickly%20and%20efficiently.
+
 
