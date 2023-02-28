@@ -29,5 +29,5 @@ if found[^2]. The proposed solution will be evaluated according to criteria A an
 
 
 ### Works Cited
-2.https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
+[^2]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
 
