@@ -24,6 +24,10 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 6. The solution needs to enable the client to add new historical topic's notes 
 7. The solution needs to enable the client to delete unwanted files.
 
+## Criteria B
+### system diagram
+![GUI](https://user-images.githubusercontent.com/112072887/222082223-0c0ec27e-1b4b-43c3-b720-78adc33cef94.png)
+
 
 
 
