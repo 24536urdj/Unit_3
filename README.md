@@ -26,8 +26,7 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 
 ## Criteria B
 ### system diagram
-![GUI](https://user-images.githubusercontent.com/112072887/222082223-0c0ec27e-1b4b-43c3-b720-78adc33cef94.png)
-
+![GUI (1)](https://user-images.githubusercontent.com/112072887/222308800-dbecfa66-055b-4749-8c4b-3e71ed7211c4.png)
 
 
 
