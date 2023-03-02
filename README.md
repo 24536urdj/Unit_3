@@ -1,4 +1,7 @@
 # Unit_3: project of creating a blog for my client 
+
+
+![](https://pin.it/6PLZnKw)
 ## Criteria A
 
 ### Problem definition
