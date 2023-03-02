@@ -1,6 +1,6 @@
 # Unit_3: project of creating a blog for my client 
-![GUI (1)](https://user-images.githubusercontent.com/112072887/222312055-5ecca6cc-578b-4da9-868d-69a1b0f2065f.png)
 
+![](dd36613d-aaf4-4c07-acd1-0026086aa5bd.gif)
 
 ## Criteria A
 
