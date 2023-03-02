@@ -1,7 +1,6 @@
 # Unit_3: project of creating a blog for my client 
 
-![](dd36613d-aaf4-4c07-acd1-0026086aa5bd.gif)
-
+![](https://github.com/24536urdj/Unit_3/blob/main/Project_unit_3/dd36613d-aaf4-4c07-acd1-0026086aa5bd.gif)
 ## Criteria A
 
 ### Problem definition
