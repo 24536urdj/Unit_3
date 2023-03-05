@@ -31,7 +31,24 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 ![GUI (1)](https://user-images.githubusercontent.com/112072887/222308800-dbecfa66-055b-4749-8c4b-3e71ed7211c4.png)
 
 
-
+|    | Planned Action                                        | Planned Outcome                                                                            | Design Cycle   | Time Estimate | Target Completion | Criteria |
+|----|-------------------------------------------------------|--------------------------------------------------------------------------------------------|----------------|---------------|-------------------|----------|
+| 1  | First meeting with client                             | meeting with mayte flores ,to discuss what app she would like me to develop                                             | Planning       | 7 minutes    |10 february        | A        |
+| 2  | Write down success criteria                           | discussing my client success criteria and eliminating the unnecessary ones.                                                | Planning       | 7 minutes    | 13 February          | A        |
+| 3  | finalizing the success criteria                              |  Meeting with Mayte to show her the finalized success criteria and get her consent to start | Planning       | 10 minutes        | 16 feb           | A        |
+| 4  | Update success criteria                               | List more success criteria and prepare for presentation to client                          | Planning       | 30 minutes    | 14 March          | A        |
+| 5  | Meet with client to  present the success criteria     | Present success criteria to client to get the approval                                     | Planning       | 30 minutes    | 19 March          | A        |
+| 6  | Research and write rationale for proposed solution    | Finish rationale for proposed solution                                                     | Planning       | 2 hours       | 20 March          | A        |
+| 7  | Starts working on login and registration system       | Finish login and registration system with database                                         | Development    | 1 day         | 23 March          | C        |
+| 8  | Create wireframe diagram                              | Wireframe diagram is ready to present to client as the first MVP                           | Design         | 1 hour        | 24 March          | B        |
+| 9  | Create system diagram                                 | System diagram is done with details written on it                                          | Design         | 2 hours       | 25 March          | B        |
+| 10 | Working on password encryption                        | Using sha256 to encrypt password and check password in login and registration              | Development    | 1 hour        | 2 April           | C        |
+| 11 | Create welcome screen following the wireframe diagram | Have welcome screen ready                                                                  | Development    | 2 hours       | 8 April           | C        |
+| 12 | Present the wireframe and application to the client   | Get client's feedback on the wireframe and application                                     | Planning       | 30 minutes    | 9 April           | A        |
+| 13 | Make ER diagram                                       | ER diagram is created for both tables                                                      | Planning       | 40 minutes    | 9 April           | B        |
+| 14 | Update record of task                                 | Record of task is up to date                                                               | Planning       | 20 minutes    | 10 April          | B        |
+| 15 | Create table to show diary                            | Table is created and can show every diary belongs to that specific user                    | Development    | 3 hours       | 14 April          | C        |
+| 16 | Make new diary screen                                 | Allow user to create new diary in the application and can check their diary in the table   
 
 ### Works Cited
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
