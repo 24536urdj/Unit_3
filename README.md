@@ -45,10 +45,12 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 | 10 | Working on password validation                        | Create a unique username and password for my client that without it no one will be able to access the tools of editing or adding new files               | Development    | 30 min        | 29 feb            | C        |
 | 11 | Create sql database to store the topics added | have a table with name .topic ,date and share columns                                                                   | Development    |  15 min      | 8           | C        |
 | 12 | Present an mvp of the application to the class (and my client)   | Get client's feedback on the  application design and services available                                    | Planning       |     | 3 march         | A        |
-| 13 | Make DataTable and connect it to the sql                                      | data will be presented in the atble in an organized way                                                   | developement      | 15 min    | 4 march          | C        |
-| 14 | create an MDScreen with all tools available                       | An MDScreen with a Bar of tools is created                                                               | Developement       | 20 minutes    |      4 march     | C       |
-| 15 | Create table to show diary                            | Table is created and can show every diary belongs to that specific user                    | Development    | 3 hours       | 14 April          | C        |
-| 16 | Make new diary screen                                 | Allow user to create new diary in the application and can check their diary in the table   
+| 13 | Make DataTable and connect it to the sql database along with creating an MDScreen in the kivy file for it                                     | data will be presented in the table in a another MDScreen in an organized way                                                   | developement      | 15 min    | 4 march          | C        |
+| 14 | create an MDScreen with all tools available                       | An MDScreen with a Bar of tools such as add is created                                                               | Developement       | 20 minutes    |      4 march     | C       |
+| 15 | Create another MDSreen to add new topics                          | MDScreen that allows client to fill the topic ,the date of its creation and if they would like to share it.                  | Development    | 3 hours                 | C        |
+| 16 | Make another MDScreen for the viewer  |    developement              |  30 min      |       C       | Allow viewer to go to the same MDScreen of owner but without accessing the tools to add a new topic.
+|17|delete function for the client create a ||||developement
+
 
 ### Works Cited
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
