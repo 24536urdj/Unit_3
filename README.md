@@ -50,6 +50,53 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 | 15 | Create another MDSreen to add new topics                          | MDScreen that allows client to fill the topic ,the date of its creation and if they would like to share it.                  | Development    | 3 hours                 | C        |
 
 
+
+### Criteria C
+## technique used 
+- for loop
+- creating application interferance with kivymd library 
+-  connection to sql database
+-  functions such as if function 
+-  creating a data table using MDDataTable imported from kivymd 
+-  using sql dialogue to insert,search and commit actions
+-  using the language of python only.
+## HomeScreen created using kivymd
+  ```py
+  <HomeScreen>:
+    size: 500,500
+    FitImage:
+        source: "love.png"
+    MDCard:
+
+        size_hint: .5, .9
+        elevation : 2
+        pos_hint:{"center_x":.5,"center_y":.5}
+
+        orientation: "vertical"
+        padding: dp(50)
+        MDLabel:
+            text: "WELCOME TO MIRABEL"
+            font_style: "H3"
+            size_hint: 1, .2
+
+            pos_hint:{"center_x":.5,"center_y":.5}
+
+        MDBoxLayout:
+            size_hint: 1,.1
+
+            MDRaisedButton:
+                id: owner
+                text: "owner"
+                on_press:root.parent.current ="LoginScreen"
+                size_hint:.3,1
+                md_bg_color:"#e63946"
+            MDRaisedButton:
+                id:viewer
+                text:"viewer"
+                size_hint:.3,1
+                on_press:root.parent.current ="Screen2"
+```
+
 ### Works Cited
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
 [^2]:https://www.pythonguis.com/faq/which-python-gui-library/#:~:text=While%20most%20other%20GUI%20frameworks,is%20the%20way%20to%20go.
