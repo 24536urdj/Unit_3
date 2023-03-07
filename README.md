@@ -59,7 +59,8 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 -  functions such as if function 
 -  creating a data table using MDDataTable imported from kivymd 
 -  using sql dialogue to insert,search and commit actions
--  using the language of python only.
+-  using the language of python and sqlite .
+-  
 ## HomeScreen created using kivymd
   ```py
   <HomeScreen>:
