@@ -161,7 +161,102 @@ class LoginScreen(MDScreen):
     pass
 
 ```
+```py 
+ data_table= None
+    def update(self):
+        db = database_worker("new_file.db")
+        query= "SELECT * From wordy order by topic"
+        data= db.search(query)
+        db.close()
+        self.data_table.update_row_data(None,data)
+    def delete(self):
+        rows_checked = self.data_table.get_row_checks()
+        print(rows_checked)
+        db = database_worker("new_file.db")
+        for r in rows_checked:
+            id = r[0]
+            query= f"delete from wordy  where id = {id} "
+            db.run_save(query)
+        db.close()
+        self.update()
 
+
+
+    def on_pre_enter(self, *args):
+
+        self.data_table= MDDataTable(
+            size_hint= (.5,.7),
+            pos_hint= {"center_x":.5,"center_y":.5},
+            use_pagination= False,
+            check= True,
+            background_color= "black",
+            column_data= [("id",20),("name",30),("date",30),("share",30)]
+
+        )
+        self.data_table.bind(on_row_press=self.row_pressed)
+        self.data_table.bind(on_check_press=self.check_pressed)
+
+        self.add_widget(self.data_table)
+        print("hello")
+        self.update()
+
+    def row_pressed(self,table,row):
+        print("a row was pressed ",row.text)
+        row.md_bg_color="#ffff00"
+
+
+    def check_pressed(self,table,current_row):
+        print("a row was checked ",current_row)
+
+
+    #before the screen is shown this code runs
+
+    pass
+```
+```py
+<TableScreen>:
+    size: 500,500
+    FitImage:
+        source: "love.png"
+    MDCard:
+        size_hint: .5, .9
+        elevation : 2
+        pos_hint:{"center_x":.5,"center_y":.5}
+
+        MDBoxLayout:
+            orientation: "vertical"
+            md_bg_color:"#B4A8BA"
+
+
+
+            MDLabel:
+                text:""
+                size_hint_y:.55
+                md_bg_color:"#B4A8BA"
+
+            FloatLayout:
+
+                MDRoundFlatIconButton:
+                    id:containere
+                    text: "search"
+
+
+                    on_press: root.parent.current="TableScreen"
+
+
+            MDRaisedButton:
+
+
+
+
+
+                text: "Delete"
+
+
+                on_press: root.delete()
+
+
+```
 
 ### Works Cited
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
