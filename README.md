@@ -48,8 +48,6 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 | 13 | Make DataTable and connect it to the sql database along with creating an MDScreen in the kivy file for it                                     | data will be presented in the table in a another MDScreen in an organized way                                                   | developement      | 15 min    | 4 march          | C        |
 | 14 | create an MDScreen with all tools available                       | An MDScreen with a Bar of tools such as add is created                                                               | Developement       | 20 minutes    |      4 march     | C       |
 | 15 | Create another MDSreen to add new topics                          | MDScreen that allows client to fill the topic ,the date of its creation and if they would like to share it.                  | Development    | 3 hours                 | C        |
-| 16 | Make another MDScreen for the viewer  |    developement              |  30 min      |       C       | Allow viewer to go to the same MDScreen of owner but without accessing the tools to add a new topic.
-|17|delete function for the client create a ||||developement
 
 
 ### Works Cited
