@@ -96,6 +96,47 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
                 size_hint:.3,1
                 on_press:root.parent.current ="Screen2"
 ```
+```py
+<LoginScreen>:
+    size: 500,500
+    FitImage:
+        source: "love.png"
+    MDCard:
+
+        size_hint: .5, .9
+        elevation : 2
+        pos_hint:{"center_x":.5,"center_y":.5}
+
+        orientation: "vertical"
+        padding: dp(50)
+        MDLabel:
+            text: "Login"
+            font_style: "H3"
+            size_hint: 1, .2
+
+            pos_hint:{"center_x":.5,"center_y":.5}
+        MDTextField:
+            id: uname
+            hint_text:"Enter your username or email"
+            icon_left: "email"
+        MDTextField:
+            id: password
+            hint_text:"Enter your password"
+
+            icon_left: "key"
+            password: True
+        MDBoxLayout:
+            size_hint: 1,.1
+            MDRaisedButton:
+                id: login
+                text: "login"
+                on_press: root.try_login()
+                size_hint:.3,1
+            MDLabel:
+                size_hint: .3,1
+
+```
+
 
 ### Works Cited
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
