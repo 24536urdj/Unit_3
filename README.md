@@ -96,6 +96,7 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
                 size_hint:.3,1
                 on_press:root.parent.current ="Screen2"
 ```
+# login screen using  kivymd 
 ```py
 <LoginScreen>:
     size: 500,500
@@ -136,6 +137,7 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
                 size_hint: .3,1
 
 ```
+# the python code for login function
 ```py
 class LoginScreen(MDScreen):
     def try_login(self):
@@ -161,6 +163,7 @@ class LoginScreen(MDScreen):
     pass
 
 ```
+# adding the function of deeting and updating the data table using python in pycharm
 ```py 
  data_table= None
     def update(self):
@@ -213,6 +216,7 @@ class LoginScreen(MDScreen):
 
     pass
 ```
+# Creating a the Table screen using kivymd library
 ```py
 <TableScreen>:
     size: 500,500
@@ -255,6 +259,23 @@ class LoginScreen(MDScreen):
 
                 on_press: root.delete()
 
+
+```
+# creating a function that saves the inputs entered in the sql database created
+```py
+class NEW(MDScreen):
+    def save(self):
+        uname = self.ids.unamee.text
+        date = self.ids.date.text
+        share = self.ids.share.text
+
+        db = database_worker("new_file.db")
+
+        query = f"INSERT into wordy (topic, date,share) values ('{uname}', '{date}', '{share}')"
+        db.run_save(query)
+
+        db.close()
+        self.parent.current="TableScreen"
 
 ```
 
