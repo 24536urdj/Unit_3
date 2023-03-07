@@ -136,6 +136,31 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
                 size_hint: .3,1
 
 ```
+```py
+class LoginScreen(MDScreen):
+    def try_login(self):
+        log = self.ids.password.text
+        if log == False:
+            exit()
+        print("User trying to login ")
+        uname = self.ids.uname.text
+        password = self.ids.password.text
+        if uname != "mi":
+            self.ids.uname.hint_text= "error username doesn't exist"
+
+
+        else :
+            if uname == "mi" and password != "mo1":
+                self.ids.password.hint_text="error password incorrect"
+
+            else:
+                if uname == "mi" and password == "mo1":
+                    self.parent.current = "DigitalScreen"
+
+
+    pass
+
+```
 
 
 ### Works Cited
