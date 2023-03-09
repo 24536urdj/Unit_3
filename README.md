@@ -31,15 +31,20 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 ![GUI (1)](https://user-images.githubusercontent.com/112072887/222308800-dbecfa66-055b-4749-8c4b-3e71ed7211c4.png)
 ### Wireframe diagram for the application 
 ![Screenflow Diagram Flowchart Whiteboard in Pink Yellow Adjacent Color Blocks Style](https://user-images.githubusercontent.com/112072887/224026850-f4920acd-c68f-4476-97e9-c08dbeab1811.png)
-### flow chart 1 
+
+### flow charts  
 
 ![Screen Shot 2023-03-09 at 22 12 13](https://user-images.githubusercontent.com/112072887/224033512-e774d401-2d4b-4b97-8590-e7302d936b7a.png)
-### flow chart 2 
+this flow chart is for connecting python to sqlite database which is preferable to use with this programming language because SQLite is a very easy to use database engine included with Python. SQLite is open source and is a great database for smaller projects, hobby projects, or testing and developmen[^4] ,and also the functions added after the connection such as search , and run_save 
+ 
 
 
 ![Screen Shot 2023-03-09 at 23 30 04](https://user-images.githubusercontent.com/112072887/224055778-33f8f33e-eb4d-4054-9b7e-b90d61cb5c60.png)
-### flow chart 3 
+
 ![Screen Shot 2023-03-09 at 23 47 24](https://user-images.githubusercontent.com/112072887/224060498-157e9cc0-e1c9-4ebf-b089-fa9719655dfc.png)
+### Er diagram
+![Screen Shot 2023-03-10 at 5 03 19](https://user-images.githubusercontent.com/112072887/224141550-50d77575-67a5-44da-b0c8-b75cf5abad16.png)
+
 ### UML Diagram 
 
 ![Screen Shot 2023-03-10 at 0 08 28](https://user-images.githubusercontent.com/112072887/224066394-4b9855c9-5c31-4660-9d31-47c5ad641b1f.png)
@@ -299,5 +304,6 @@ class NEW(MDScreen):
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
 [^2]:https://www.pythonguis.com/faq/which-python-gui-library/#:~:text=While%20most%20other%20GUI%20frameworks,is%20the%20way%20to%20go.
 [^3]:https://www.businessnewsdaily.com/5804-what-is-sql.html#:~:text=Its%20portability%20makes%20it%20a,retrieve%20it%20quickly%20and%20efficiently.
+[^4]:https://www.freecodecamp.org/news/using-sqlite-databases-with-python/#:~:text=SQLite%20is%20a%20very%20easy,projects%2C%20or%20testing%20and%20development.
 
 
