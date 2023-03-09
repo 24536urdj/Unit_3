@@ -1,17 +1,9 @@
 # Unit_3: project of creating a blog for my client 
 
 ![](https://github.com/24536urdj/Unit_3/blob/main/Project_unit_3/dd36613d-aaf4-4c07-acd1-0026086aa5bd.gif)
-# Table of Content
-1. [^Criteria A](#Criteria A)
 
-2. [^Criteria B](#Criteria B)
 
-3. [^Criteria C](#Criteria C)
-
-4. [^Criteria D](#Criteria D)
-
-5. [^Citation](#Work Cited)
-## Criteria A
+## Criteria A planning
 
 ### Problem definition
 My client is mayte Flores (who is currently an IB student ) has expressed  her worries about the accumulation of a great amount of  historical topics  that she became interested in , and  wants to preserve .However the use of a notebook has became   difficult and  disorganized since the needs to buy constantly a new ,notebook while keeping the others, costs her both money and effort , subsequently taking into consideration mayte’s stance toward the privacy policies of many blog websites , and her passion to share these topics with her fellows ;I have decided to create a blog application for my client where she can preserve her privacy and maintain her choice of not sharing some personal data , along with keeping her historical topics organized and easy to find while giving her schoolmates access to them.
@@ -36,7 +28,7 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 6. The solution needs to enable the client to add new historical topic's notes 
 7. The solution needs to enable the client to delete unwanted files.
 
-## Criteria B
+## Criteria B design 
 ### system diagram
 ![GUI (1)](https://user-images.githubusercontent.com/112072887/222308800-dbecfa66-055b-4749-8c4b-3e71ed7211c4.png)
 ### Wireframe diagram for the application 
@@ -93,7 +85,7 @@ this flow chart is for connecting python to sqlite database which is preferable 
 
 
 
-### Criteria C
+### Criteria C development 
 ## technique used 
 - for loop
 - creating application interferance with kivymd library 
@@ -321,6 +313,7 @@ class NEW(MDScreen):
         self.parent.current="TableScreen"
 
 ```
+# Criteria D functionality
 
 ### Works Cited
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
