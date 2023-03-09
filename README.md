@@ -38,6 +38,9 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 
 
 ![Screen Shot 2023-03-09 at 23 30 04](https://user-images.githubusercontent.com/112072887/224055778-33f8f33e-eb4d-4054-9b7e-b90d61cb5c60.png)
+### flow chart 3 
+![Screen Shot 2023-03-09 at 23 47 24](https://user-images.githubusercontent.com/112072887/224060498-157e9cc0-e1c9-4ebf-b089-fa9719655dfc.png)
+
 
 
 |    | Planned Action                                        | Planned Outcome                                                                            | Design Cycle   | Time Estimate | Target Completion | Criteria |
