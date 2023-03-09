@@ -30,7 +30,7 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 ### system diagram
 ![GUI (1)](https://user-images.githubusercontent.com/112072887/222308800-dbecfa66-055b-4749-8c4b-3e71ed7211c4.png)
 ### Wireframe diagram for the application 
-![](Screenflow Diagram Flowchart Whiteboard in Pink Yellow Adjacent Color Blocks Style](https://user-images.githubusercontent.com/112072887/224026850-f4920acd-c68f-4476-97e9-c08dbeab1811.png)
+![Screenflow Diagram Flowchart Whiteboard in Pink Yellow Adjacent Color Blocks Style](https://user-images.githubusercontent.com/112072887/224026850-f4920acd-c68f-4476-97e9-c08dbeab1811.png)
 
 
 
