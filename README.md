@@ -31,6 +31,9 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 ![GUI (1)](https://user-images.githubusercontent.com/112072887/222308800-dbecfa66-055b-4749-8c4b-3e71ed7211c4.png)
 ### Wireframe diagram for the application 
 ![Screenflow Diagram Flowchart Whiteboard in Pink Yellow Adjacent Color Blocks Style](https://user-images.githubusercontent.com/112072887/224026850-f4920acd-c68f-4476-97e9-c08dbeab1811.png)
+### flow chart 1 
+
+![Screen Shot 2023-03-09 at 22 12 13](https://user-images.githubusercontent.com/112072887/224033512-e774d401-2d4b-4b97-8590-e7302d936b7a.png)
 
 
 
