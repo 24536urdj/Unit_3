@@ -44,9 +44,10 @@ this flow chart is for connecting python to sqlite database which is preferable 
 
 
 ![Screen Shot 2023-03-09 at 23 30 04](https://user-images.githubusercontent.com/112072887/224055778-33f8f33e-eb4d-4054-9b7e-b90d61cb5c60.png)
-
+This flow chart is for creating a secure log in function for my client,it uses if function in order to eliminate and mitigate the error of letting someone who does not possess the username or password of log in into the application.
 
 ![Screen Shot 2023-03-09 at 23 47 24](https://user-images.githubusercontent.com/112072887/224060498-157e9cc0-e1c9-4ebf-b089-fa9719655dfc.png)
+This flow chart shows the creation of add function and save function that were required by client in the success criteria.the add function allows he client to add new topics to the data table ,and the save function serves to commit this action.
 ### Er diagram
 ![Screen Shot 2023-03-10 at 5 03 19](https://user-images.githubusercontent.com/112072887/224141550-50d77575-67a5-44da-b0c8-b75cf5abad16.png)
 
@@ -56,6 +57,8 @@ this flow chart is for connecting python to sqlite database which is preferable 
 ### UML Diagram 
 
 ![Screen Shot 2023-03-10 at 0 08 28](https://user-images.githubusercontent.com/112072887/224066394-4b9855c9-5c31-4660-9d31-47c5ad641b1f.png)
+the UML diagram shows all the classes used by the developer  in this project with methods included in every class. There are 2 main parents class which are MDScreen and MDApp from which other class inherite methods and attributes from them. The inheritance is represented by the arrow.
+
 
 
 ## Test Plan
