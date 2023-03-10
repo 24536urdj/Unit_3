@@ -37,15 +37,21 @@ if found[^1]. The proposed solution will be evaluated according to criteria A an
 ### flow charts  
 
 ![Screen Shot 2023-03-09 at 22 12 13](https://user-images.githubusercontent.com/112072887/224033512-e774d401-2d4b-4b97-8590-e7302d936b7a.png)
+
+
 this flow chart is for connecting python to sqlite database which is preferable to use with this programming language because SQLite is a very easy to use database engine included with Python. SQLite is open source and is a great database for smaller projects, hobby projects, or testing and developmen[^4] ,and also the functions added after the connection such as search , and run_save 
  
 
 
 ![Screen Shot 2023-03-09 at 23 30 04](https://user-images.githubusercontent.com/112072887/224055778-33f8f33e-eb4d-4054-9b7e-b90d61cb5c60.png)
 
+
 ![Screen Shot 2023-03-09 at 23 47 24](https://user-images.githubusercontent.com/112072887/224060498-157e9cc0-e1c9-4ebf-b089-fa9719655dfc.png)
 ### Er diagram
 ![Screen Shot 2023-03-10 at 5 03 19](https://user-images.githubusercontent.com/112072887/224141550-50d77575-67a5-44da-b0c8-b75cf5abad16.png)
+
+ the ER diagram shows the relationship between new topic table and topic_text table. In the topic table, there are 4 columns including id, topic, date, share , which each column will have the specific data type after the column name. The second table has 2 columns which are id,  and topic_text. This diagram shows also the primary key will be the id.
+
 
 ### UML Diagram 
 
