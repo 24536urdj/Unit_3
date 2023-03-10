@@ -324,7 +324,17 @@ class NEW(MDScreen):
 ```
 # Criteria D functionality
 
+
+
+https://user-images.githubusercontent.com/112072887/224200809-06da8cc4-55cb-4342-ae01-996fcf496d82.mov
+
+
+
+
 ### Works Cited
+
+
+
 [^1]:https://docs.google.com/presentation/d/1k41YyEAyK55seezfsiWFLbTviNKkhPw58PTaGJcqjpo/edit#slide=id.g113dea6e35a_0_9)
 [^2]:https://www.pythonguis.com/faq/which-python-gui-library/#:~:text=While%20most%20other%20GUI%20frameworks,is%20the%20way%20to%20go.
 [^3]:https://www.businessnewsdaily.com/5804-what-is-sql.html#:~:text=Its%20portability%20makes%20it%20a,retrieve%20it%20quickly%20and%20efficiently.
