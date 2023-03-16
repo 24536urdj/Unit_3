@@ -23,4 +23,15 @@ What is the average gold by village?
 
 
 ![Screen Shot 2023-03-16 at 21 57 30](https://user-images.githubusercontent.com/112072887/225623793-05f4e7f6-7abe-4351-9798-dc6ca63f1101.png)
+        How many different jobs are there?
+```.py
+   select  distinct job  from INHABITANT
+```
+![Screen Shot 2023-03-16 at 22 06 43](https://user-images.githubusercontent.com/112072887/225626103-97b0d8b4-83f6-4fec-8d07-c1fa05db4025.png)
+
+
+
+   
+
+
 
