@@ -22,5 +22,5 @@ What is the average gold by village?
 ```
 
 
-  ![Screen Shot 2023-03-16 at 21 57 30](https://user-images.githubusercontent.com/112072887/225623793-05f4e7f6-7abe-4351-9798-dc6ca63f1101.png)
+![Screen Shot 2023-03-16 at 21 57 30](https://user-images.githubusercontent.com/112072887/225623793-05f4e7f6-7abe-4351-9798-dc6ca63f1101.png)
 
