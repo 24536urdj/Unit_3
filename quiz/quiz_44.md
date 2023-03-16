@@ -28,6 +28,15 @@ What is the average gold by village?
    select  distinct job  from INHABITANT
 ```
 ![Screen Shot 2023-03-16 at 22 06 43](https://user-images.githubusercontent.com/112072887/225626103-97b0d8b4-83f6-4fec-8d07-c1fa05db4025.png)
+        What are the items owned by the herbalists?
+```.py 
+   select * from item where owner =4
+
+```
+![Screen Shot 2023-03-16 at 22 12 30](https://user-images.githubusercontent.com/112072887/225627513-c4c82a4e-26ad-47f5-8782-05dd569dc4aa.png)
+
+
+
 
 
 
